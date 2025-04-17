@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Keith Thomson's Pydoc</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title"><a href="classes.html" class="white">classes</a>.classes</strong></td>
+<td class="extra"><a href=".">index</a><br><a href="file:/home/whaler/data_structures/classes/classes.py">/home/whaler/data_structures/classes/classes.py</a></td></tr></table>
+    <p><span class="code">#&nbsp;This&nbsp;module&nbsp;defines&nbsp;a&nbsp;<a href="#Person">Person</a>&nbsp;class&nbsp;and&nbsp;manages&nbsp;student&nbsp;records.</span></p>
+<p>
+<table class="section">
+<tr class="decor index-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Classes</strong></td></tr>
+    
+<tr><td class="decor index-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl>
+<dt class="heading-text"><a href="builtins.html#object">builtins.object</a>
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="classes.classes.html#Person">Person</a>
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="classes.classes.html#Teacher">Teacher</a>
+</dt></dl>
+</dd>
+</dl>
+</dd>
+</dl>
+ <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="Person">class <strong>Person</strong></a>(<a href="builtins.html#object">builtins.object</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code"><a href="#Person">Person</a>(name,&nbsp;age,&nbsp;student_id,&nbsp;classes)<br>
+&nbsp;<br>
+<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn">Methods defined here:<br>
+<dl><dt><a name="Person-__init__"><strong>__init__</strong></a>(self, name, age, student_id, classes)</dt><dd><span class="code">Description:&nbsp;The&nbsp;__init__&nbsp;constructor&nbsp;initializes&nbsp;the&nbsp;class&nbsp;with&nbsp;attributes:&nbsp;name,&nbsp;age,&nbsp;student_id,&nbsp;and&nbsp;classes.<br>
+&nbsp;<br>
+Parameters:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;name&nbsp;(str):&nbsp;The&nbsp;name&nbsp;of&nbsp;the&nbsp;person.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;age&nbsp;(int):&nbsp;The&nbsp;age&nbsp;of&nbsp;the&nbsp;person.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;student_id&nbsp;(str):&nbsp;The&nbsp;student&nbsp;ID&nbsp;of&nbsp;the&nbsp;person.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;classes&nbsp;(list):&nbsp;A&nbsp;list&nbsp;of&nbsp;classes&nbsp;the&nbsp;person&nbsp;is&nbsp;enrolled&nbsp;in.<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="Person-__str__"><strong>__str__</strong></a>(self)</dt><dd><span class="code">Description:&nbsp;This&nbsp;method&nbsp;returns&nbsp;a&nbsp;string&nbsp;representation&nbsp;of&nbsp;the&nbsp;<a href="builtins.html#object">object</a>.<br>
+Without&nbsp;doing&nbsp;this,&nbsp;printing&nbsp;the&nbsp;<a href="#Person">Person</a>&nbsp;<a href="builtins.html#object">object</a>&nbsp;would&nbsp;render&nbsp;output&nbsp;like&nbsp;this:<br>
+&nbsp;<br>
+&lt;__main__.<a href="#Person">Person</a>&nbsp;<a href="builtins.html#object">object</a>&nbsp;at&nbsp;0x78409ad36e40&gt;<br>
+__str__&nbsp;method&nbsp;tells&nbsp;python&nbsp;I&nbsp;want&nbsp;a&nbsp;string,&nbsp;not&nbsp;the&nbsp;<a href="builtins.html#object">object</a>&nbsp;location.&nbsp;<br>
+&nbsp;<br>
+Parameters:&nbsp;None<br>
+&nbsp;<br>
+Returns:&nbsp;A&nbsp;string&nbsp;representation&nbsp;of&nbsp;the&nbsp;<a href="builtins.html#object">object</a>.</span></dd></dl>
+
+<dl><dt><a name="Person-schedule"><strong>schedule</strong></a>(self, classes)</dt><dd><span class="code">Description:&nbsp;This&nbsp;method&nbsp;takes&nbsp;the&nbsp;'classes'&nbsp;attribute,&nbsp;and&nbsp;returns&nbsp;a&nbsp;list&nbsp;containing&nbsp;courses.<br>
+&nbsp;<br>
+Parameters:&nbsp;classes&nbsp;(list)<br>
+&nbsp;<br>
+Returns:&nbsp;A&nbsp;list[]&nbsp;or&nbsp;strings&nbsp;containing&nbsp;courses.</span></dd></dl>
+
+<dl><dt><a name="Person-speak"><strong>speak</strong></a>(self)</dt><dd><span class="code">Description:&nbsp;This&nbsp;method&nbsp;uses&nbsp;self&nbsp;from&nbsp;which&nbsp;I&nbsp;can&nbsp;grab&nbsp;any&nbsp;attributes<br>
+&nbsp;<br>
+Parameters:&nbsp;None<br>
+&nbsp;<br>
+Returns:&nbsp;A&nbsp;string&nbsp;representation&nbsp;of&nbsp;the&nbsp;<a href="builtins.html#object">object</a>.</span></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object</span></dd>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="Teacher">class <strong>Teacher</strong></a>(<a href="classes.classes.html#Person">Person</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code"><a href="#Teacher">Teacher</a>(name,&nbsp;age,&nbsp;teacher_id,&nbsp;classes)<br>
+&nbsp;<br>
+Description:&nbsp;The&nbsp;<a href="#Teacher">Teacher</a>&nbsp;class&nbsp;extends&nbsp;the&nbsp;<a href="#Person">Person</a>&nbsp;class&nbsp;and&nbsp;adds&nbsp;a&nbsp;teacher_id&nbsp;attribute.<br>
+&nbsp;<br>
+#&nbsp;This&nbsp;is&nbsp;called&nbsp;inheritance.&nbsp;The&nbsp;<a href="#Teacher">Teacher</a>&nbsp;class&nbsp;inherits&nbsp;all&nbsp;the&nbsp;attributes&nbsp;and&nbsp;methods&nbsp;of&nbsp;the&nbsp;<a href="#Person">Person</a>&nbsp;class.<br>
+&nbsp;<br>
+Parameters:&nbsp;name,&nbsp;age,&nbsp;teacher_id,&nbsp;classes&nbsp;(list)<br>
+&nbsp;<br>
+Returns:&nbsp;None<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="classes.classes.html#Teacher">Teacher</a></dd>
+<dd><a href="classes.classes.html#Person">Person</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="Teacher-__init__"><strong>__init__</strong></a>(self, name, age, teacher_id, classes)</dt><dd><span class="code">Description:&nbsp;The&nbsp;__init__&nbsp;constructor&nbsp;initializes&nbsp;the&nbsp;class&nbsp;with&nbsp;attributes:&nbsp;name,&nbsp;age,&nbsp;student_id,&nbsp;and&nbsp;classes.<br>
+&nbsp;<br>
+Parameters:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;name&nbsp;(str):&nbsp;The&nbsp;name&nbsp;of&nbsp;the&nbsp;person.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;age&nbsp;(int):&nbsp;The&nbsp;age&nbsp;of&nbsp;the&nbsp;person.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;student_id&nbsp;(str):&nbsp;The&nbsp;student&nbsp;ID&nbsp;of&nbsp;the&nbsp;person.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;classes&nbsp;(list):&nbsp;A&nbsp;list&nbsp;of&nbsp;classes&nbsp;the&nbsp;person&nbsp;is&nbsp;enrolled&nbsp;in.<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;None</span></dd></dl>
+
+<dl><dt><a name="Teacher-__str__"><strong>__str__</strong></a>(self)</dt><dd><span class="code">Description:&nbsp;This&nbsp;method&nbsp;returns&nbsp;a&nbsp;string&nbsp;representation&nbsp;of&nbsp;the&nbsp;<a href="builtins.html#object">object</a>.<br>
+Without&nbsp;doing&nbsp;this,&nbsp;printing&nbsp;the&nbsp;<a href="#Person">Person</a>&nbsp;<a href="builtins.html#object">object</a>&nbsp;would&nbsp;render&nbsp;output&nbsp;like&nbsp;this:<br>
+&nbsp;<br>
+&lt;__main__.<a href="#Person">Person</a>&nbsp;<a href="builtins.html#object">object</a>&nbsp;at&nbsp;0x78409ad36e40&gt;<br>
+__str__&nbsp;method&nbsp;tells&nbsp;python&nbsp;I&nbsp;want&nbsp;a&nbsp;string,&nbsp;not&nbsp;the&nbsp;<a href="builtins.html#object">object</a>&nbsp;location.&nbsp;<br>
+&nbsp;<br>
+Parameters:&nbsp;None<br>
+&nbsp;<br>
+Returns:&nbsp;A&nbsp;string&nbsp;representation&nbsp;of&nbsp;the&nbsp;<a href="builtins.html#object">object</a>.</span></dd></dl>
+
+<dl><dt><a name="Teacher-speak"><strong>speak</strong></a>(self)</dt><dd><span class="code">Description:&nbsp;This&nbsp;method&nbsp;uses&nbsp;self&nbsp;from&nbsp;which&nbsp;I&nbsp;can&nbsp;grab&nbsp;any&nbsp;attributes<br>
+&nbsp;<br>
+Parameters:&nbsp;None<br>
+&nbsp;<br>
+Returns:&nbsp;A&nbsp;string&nbsp;representation&nbsp;of&nbsp;the&nbsp;<a href="builtins.html#object">object</a>.</span></dd></dl>
+
+<hr>
+Methods inherited from <a href="classes.classes.html#Person">Person</a>:<br>
+<dl><dt><a name="Teacher-schedule"><strong>schedule</strong></a>(self, classes)</dt><dd><span class="code">Description:&nbsp;This&nbsp;method&nbsp;takes&nbsp;the&nbsp;'classes'&nbsp;attribute,&nbsp;and&nbsp;returns&nbsp;a&nbsp;list&nbsp;containing&nbsp;courses.<br>
+&nbsp;<br>
+Parameters:&nbsp;classes&nbsp;(list)<br>
+&nbsp;<br>
+Returns:&nbsp;A&nbsp;list[]&nbsp;or&nbsp;strings&nbsp;containing&nbsp;courses.</span></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="classes.classes.html#Person">Person</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object</span></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor data-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Data</strong></td></tr>
+    
+<tr><td class="decor data-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><strong>student_1</strong> = &lt;classes.classes.Person object&gt;<br>
+<strong>teacher_1</strong> = &lt;classes.classes.Teacher object&gt;</td></tr></table>
+</body></html>
